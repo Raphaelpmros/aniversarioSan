@@ -1,0 +1,61 @@
+body{
+    background-image: url(img/background.jpg);
+    background-size: auto;
+    background-position: top center;
+    background-attachment: fixed;
+    font-family: "Nunito", sans-serif;
+}
+
+
+#home{
+    background-image: url(img/saw.jpg);
+    background-position: top center;
+    background-attachment: fixed;
+    font-family: "Nunito", sans-serif;
+}
+
+#game{
+    background-image: url(https://midia.gruposinos.com.br/_midias/jpg/2017/06/28/jigsaw-3083931.jpg);
+    background-size: auto;
+    background-position: top center;
+    background-attachment: fixed;
+    font-family: "Nunito", sans-serif;
+}
+
+#final{
+    background-image: url(img/san.jpg);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1, h2, div{
+    font-family: 'Creepster', system-ui;
+}
+
+h2.index{
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn, .btn-danger {
+    font-family: 'Creepster', system-ui;
+}
+
+.centered-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
